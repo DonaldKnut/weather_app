@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./forecast.js" defer></script>
+    <script src="./app.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sub-wrapper">
+            <h1 class="text-muted">PhilianWeather</h1>
+            <form class="change-location">
+                <label for="city">Enter a Location for weather information</label>
+                <input type="text" name="city" class="form-control"> 
+    
+            </form>
+        </div>
+        <div class="card d-none">
+            <img src="https://via.placeholder.com/420x350" class="time">
+            <div class="icon">
+                <img src="" alt="" class="">
+            </div>
+            <div class="image-wrapper">
+                <!-- <div class="icon"></div> -->
+                <div class="details">
+                    <h5 class="city-name none">CITY NAME</h5>
+                    <div class="weather-condition">WEATHER CONDITION</div>
+                    <div class="display">
+                        <span>TEMP</span>
+                        <span>&deg;C</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
